@@ -1,4 +1,5 @@
 body {
+  background-color: #ffffff;
   color: #323232;
   margin: 0;
   text-align: center;
@@ -6,14 +7,14 @@ body {
 }
 
 h1 {
-  color: #66bfbf;
+  color: #323232;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
 }
 
 h2 {
-  color: #66bfbf;
+  color: #323232;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -21,7 +22,7 @@ h2 {
 }
 
 h3 {
-  color: #11999e;
+  color: #323232;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -52,6 +53,14 @@ a:hover {
   color: #eaf6f6;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.profile-img {
+  max-height: 200px;
+  border-radius: 50%;
+=======
+>>>>>>> a00d4efdf8e92ff795be6e688b0ee9b7f95fc5e0
 .img-stack {
   padding: 5px;
 }
@@ -66,15 +75,41 @@ a:hover {
   padding: 5px;
 }
 
+<<<<<<< HEAD
+=======
+#top-section,
+#skills-section {
+  padding: 16rem 0 16rem;
+}
+
+#nav {
+  background-color: #ffffff;
+}
+
+#skills-bottom {
+  text-align: end;
+}
+
+>>>>>>> a00d4efdf8e92ff795be6e688b0ee9b7f95fc5e0
 #backend-title,
 #front-title,
 #frame-title {
   padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
 #skills-section,
 #features {
   background-color: #ffffff;
+=======
+#skills-section {
+}
+
+#skills-section,
+#features {
+  background-color: #ffffff;
+>>>>>>> f9a5e10... add cards + content
+>>>>>>> a00d4efdf8e92ff795be6e688b0ee9b7f95fc5e0
 }
 
 #title,
@@ -84,7 +119,6 @@ a:hover {
 }
 
 .top-container {
-  background-color: #323232;
   position: relative;
   padding-top: 100px;
 }
