@@ -53,63 +53,30 @@ a:hover {
   color: #eaf6f6;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+#rails-logo {
+  height: 110px;
+}
+#express-logo {
+  width: 110px;
+}
 .profile-img {
   max-height: 200px;
   border-radius: 50%;
-=======
->>>>>>> a00d4efdf8e92ff795be6e688b0ee9b7f95fc5e0
-.img-stack {
-  padding: 5px;
 }
 
-.img-back {
-  padding: 5px;
-}
-.img-front {
-  padding: 5px;
-}
-.img-frame {
-  padding: 5px;
+#profile-section {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
-<<<<<<< HEAD
-=======
-#top-section,
-#skills-section {
+#top {
+  background-color: #ffffff;
   padding: 16rem 0 16rem;
 }
 
-#nav {
-  background-color: #ffffff;
-}
-
-#skills-bottom {
-  text-align: end;
-}
-
->>>>>>> a00d4efdf8e92ff795be6e688b0ee9b7f95fc5e0
-#backend-title,
-#front-title,
-#frame-title {
-  padding-bottom: 20px;
-}
-
-<<<<<<< HEAD
 #skills-section,
 #features {
   background-color: #ffffff;
-=======
-#skills-section {
-}
-
-#skills-section,
-#features {
-  background-color: #ffffff;
->>>>>>> f9a5e10... add cards + content
->>>>>>> a00d4efdf8e92ff795be6e688b0ee9b7f95fc5e0
 }
 
 #title,
@@ -118,6 +85,10 @@ a:hover {
   font-size: 1.4rem;
 }
 
+#hire-me {
+  color: black;
+  font-size: 1.3rem;
+}
 .top-container {
   position: relative;
   padding-top: 100px;
