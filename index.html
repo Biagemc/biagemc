@@ -18,20 +18,24 @@
       type="text/css"
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Manrope&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-    <!-- CSS Files -->
-    <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
-    <link href="./css/styles.css" rel="stylesheet" />
     <link target="_blank" href="https://icons8.com/icons/set/javascript" />
     <link target="_blank" href="https://icons8.com/icons/set/npm" />
     <link target="_blank" href="https://icons8.com" />
+    <!-- CSS Files -->
+    <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
 
   <body class="index-page sidebar-collapse">
     <div id="nav">
       <nav class="navbar stick-top navbar-expand-lg navbar-transparent">
         <div class="container">
-          <a id="title" class="navbar-brand" href="#">Moreno Biage</a>
+          <a id="brand-name" class="navbar-brand" href="#"><'Moreno'/></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -227,207 +231,208 @@
     </div>
 
     <!-- Project section -->
+    <div id="projects-section" class="section">
+      <div class="projects" id="project-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+              <h2 class="title">Projects</h2>
+              <hr />
+              <div class="section-space"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 ml-auto">
+              <div
+                class="card card-background"
+                style="
+                  background-image: url('https://res.cloudinary.com/biagemc/image/upload/v1590961064/Screen_Shot_2020-05-31_at_5.37.30_PM_hxiydg.png');
+                  max-width: 500px;
+                  max-height: 450px;
+                "
+              >
+                <div class="card-body">
+                  <a href="https://github.com/Biagemc/mini_capstone_project" target="_blank" class="badge badge-danger">
+                    GitHub
+                  </a>
+                  <a href="https://bjjletsroll.herokuapp.com/" target="_blank" class="badge badge-danger">Live Link</a>
+                  <a href="https://bjjletsroll.herokuapp.com/" target="_blank">
+                    <h3 class="card-title">Lets Roll App</h3>
+                  </a>
 
-    <div class="projects" id="project-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Projects</h2>
-            <hr />
-            <div class="section-space"></div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 ml-auto">
-            <div
-              class="card card-background"
-              style="
-                background-image: url('https://res.cloudinary.com/biagemc/image/upload/v1590961064/Screen_Shot_2020-05-31_at_5.37.30_PM_hxiydg.png');
-                max-width: 500px;
-                max-height: 450px;
-              "
-            >
-              <div class="card-body">
-                <a href="https://github.com/Biagemc/mini_capstone_project" target="_blank" class="badge badge-danger">
-                  GitHub
-                </a>
-                <a href="https://bjjletsroll.herokuapp.com/" target="_blank" class="badge badge-danger">Live Link</a>
-                <a href="https://bjjletsroll.herokuapp.com/" target="_blank">
-                  <h3 class="card-title">Lets Roll App</h3>
-                </a>
+                  <h6 class="description text-warning">
+                    Library of Brazilian Jiu-Jitsu positions. Where you can create and post lessons, add comments, a
+                    user profile that shows favourites positions saved, and you may upload avatar pictures.
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mr-auto">
+              <div class="info info-horizontal">
+                <div class="description">
+                  <h4 class="info-title text-danger">Tech Stack</h4>
+                  <img class="img-stack" width="80" height="80" src="svgs/rails.svg" alt="rails-icon" />
+                  <img class="img-stack" width="50" height="50" src="svgs/javascript.svg" alt="javascript-icon" />
+                  <img class="img-stack" width="50" height="50" src="svgs/vue.svg" alt="vue-icon" />
+                  <img class="img-stack" width="50" height="50" src="svgs/html-5.svg" alt="html-icon" />
+                  <img class="img-stack" width="50" height="50" src="svgs/css-3.svg" alt="css-icon" />
+                  <img class="img-stack" width="50" height="50" src="svgs/bootstrap.svg" alt="bootstrap-icon" />
+                </div>
+              </div>
 
-                <h6 class="description text-warning">
-                  Library of Brazilian Jiu-Jitsu positions. Where you can create and post lessons, add comments, a user
-                  profile that shows favourites positions saved, and you may upload avatar pictures.
-                </h6>
+              <div class="info info-horizontal">
+                <div class="description">
+                  <h4 class="info-title text-info">Features</h4>
+                  <p class="description">
+                    <span class="title">Vue2Filters</span>
+                    for quickly filter by word
+                  </p>
+                  <p class="description">
+                    <span class="title">Vue-youtube</span>
+                    allows User to paste any type of link from youtube
+                  </p>
+                  <p class="description">
+                    <span class="title">upload link to cloudinary</span>
+                    allowing the user to save their profile picture.
+                  </p>
+                  <p class="description">
+                    Other tools used: JWT for Authentication, Bcrypt and Jbuilder.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-6 mr-auto">
-            <div class="info info-horizontal">
-              <div class="description">
-                <h4 class="info-title text-danger">Tech Stack</h4>
-                <img class="img-stack" width="80" height="80" src="svgs/rails.svg" alt="rails-icon" />
-                <img class="img-stack" width="50" height="50" src="svgs/javascript.svg" alt="javascript-icon" />
-                <img class="img-stack" width="50" height="50" src="svgs/vue.svg" alt="vue-icon" />
-                <img class="img-stack" width="50" height="50" src="svgs/html-5.svg" alt="html-icon" />
-                <img class="img-stack" width="50" height="50" src="svgs/css-3.svg" alt="css-icon" />
-                <img class="img-stack" width="50" height="50" src="svgs/bootstrap.svg" alt="bootstrap-icon" />
+          <hr />
+          <div class="row">
+            <div class="col-md-6 ml-auto">
+              <div class="info info-horizontal">
+                <div class="description">
+                  <h4 class="info-title text-danger">Tech Stack</h4>
+                  <img class="img-stack" width="80" height="80" src="svgs/rails.svg" alt="rails-icon" />
+                  <img class="img-stack" width="50" height="50" src="svgs/ruby.svg" alt="ruby-icon" />
+                </div>
+              </div>
+              <div class="info info-horizontal">
+                <div class="description">
+                  <h4 class="info-title text-info">Features</h4>
+                  <p class="description">
+                    <span class="title">Search by</span>
+                    with diverse types of passing requests and joined tables
+                  </p>
+                  <p class="description">
+                    <span class="title">JWT Authentication</span>
+                    with different authorization for admin access
+                  </p>
+                  <p class="description">
+                    <span class="title">Shopping Cart</span>
+                    allowing the user place selected products and buy
+                  </p>
+                </div>
               </div>
             </div>
+            <div class="col-md-6 mr-auto">
+              <div
+                class="card card-background"
+                style="
+                  background-image: url('https://res.cloudinary.com/biagemc/image/upload/v1591060523/Screen_Shot_2020-06-01_at_9.14.49_PM_jwivyt.png');
+                  max-width: 500px;
+                  max-height: 450px;
+                "
+              >
+                <div class="card-body">
+                  <a href="https://github.com/Biagemc/mini_capstone_project" target="_blank" class="badge badge-danger">
+                    GitHub
+                  </a>
+                  <a href="#pablo">
+                    <h2 class="card-title">Backend Product Shopping API</h2>
+                  </a>
+                  <p class="description text-warning">
+                    E-commerce API for products, with a diverse set of tables joined. User and Admin authentication.
+                    Also, shopping cart for selected products.
+                  </p>
+                  <div class="row">
+                    <div class="col-8">
+                      <h4 class="info-title text-danger">Tech Stack</h4>
+                      <img class="img-stack" width="80" height="80" src="svgs/rails.svg" alt="rails-icon" />
+                      <img class="img-stack" width="50" height="50" src="svgs/javascript.svg" alt="javascript-icon" />
+                      <img class="img-stack" width="50" height="50" src="svgs/vue.svg" alt="vue-icon" />
+                      <img class="img-stack" width="50" height="50" src="svgs/html-5.svg" alt="html-icon" />
+                      <img class="img-stack" width="50" height="50" src="svgs/css-3.svg" alt="css-icon" />
+                      <img class="img-stack" width="50" height="50" src="svgs/bootstrap.svg" alt="bootstrap-icon" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <div class="info info-horizontal">
-              <div class="description">
-                <h4 class="info-title text-info">Features</h4>
-                <p class="description">
-                  <span class="title">Vue2Filters</span>
-                  for quickly filter by word
-                </p>
-                <p class="description">
-                  <span class="title">Vue-youtube</span>
-                  allows User to paste any type of link from youtube
-                </p>
-                <p class="description">
-                  <span class="title">upload link to cloudinary</span>
-                  allowing the user to save their profile picture.
-                </p>
-                <p class="description">
-                  Other tools used: JWT for Authentication, Bcrypt and Jbuilder.
-                </p>
+          <div class="card card-plain card-blog">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card-header card-header-image">
+                  <img
+                    class="img img-raised"
+                    src="https://res.cloudinary.com/biagemc/image/upload/v1591060523/Screen_Shot_2020-06-01_at_9.14.49_PM_jwivyt.png"
+                  />
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="row">
-          <div class="col-md-6 ml-auto">
-            <div class="info info-horizontal">
-              <div class="description">
-                <h4 class="info-title text-danger">Tech Stack</h4>
-                <img class="img-stack" width="80" height="80" src="svgs/rails.svg" alt="rails-icon" />
-                <img class="img-stack" width="50" height="50" src="svgs/ruby.svg" alt="ruby-icon" />
-              </div>
-            </div>
-            <div class="info info-horizontal">
-              <div class="description">
-                <h4 class="info-title text-info">Features</h4>
-                <p class="description">
-                  <span class="title">Search by</span>
-                  with diverse types of passing requests and joined tables
-                </p>
-                <p class="description">
-                  <span class="title">JWT Authentication</span>
-                  with different authorization for admin access
-                </p>
-                <p class="description">
-                  <span class="title">Shopping Cart</span>
-                  allowing the user place selected products and buy
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 mr-auto">
-            <div
-              class="card card-background"
-              style="
-                background-image: url('https://res.cloudinary.com/biagemc/image/upload/v1591060523/Screen_Shot_2020-06-01_at_9.14.49_PM_jwivyt.png');
-                max-width: 500px;
-                max-height: 450px;
-              "
-            >
-              <div class="card-body">
-                <a href="https://github.com/Biagemc/mini_capstone_project" target="_blank" class="badge badge-danger">
-                  GitHub
-                </a>
-                <a href="#pablo">
-                  <h2 class="card-title">Backend Product Shopping API</h2>
-                </a>
-                <p class="description text-warning">
+              <div class="col-md-8">
+                <h6 class="card-category text-info">Enterprise</h6>
+                <h3 class="card-title">
+                  <a href="#pablo">Backend Product Shopping API</a>
+                </h3>
+                <p class="card-description">
                   E-commerce API for products, with a diverse set of tables joined. User and Admin authentication. Also,
                   shopping cart for selected products.
                 </p>
-                <div class="row">
-                  <div class="col-8">
-                    <h4 class="info-title text-danger">Tech Stack</h4>
-                    <img class="img-stack" width="80" height="80" src="svgs/rails.svg" alt="rails-icon" />
-                    <img class="img-stack" width="50" height="50" src="svgs/javascript.svg" alt="javascript-icon" />
-                    <img class="img-stack" width="50" height="50" src="svgs/vue.svg" alt="vue-icon" />
-                    <img class="img-stack" width="50" height="50" src="svgs/html-5.svg" alt="html-icon" />
-                    <img class="img-stack" width="50" height="50" src="svgs/css-3.svg" alt="css-icon" />
-                    <img class="img-stack" width="50" height="50" src="svgs/bootstrap.svg" alt="bootstrap-icon" />
-                  </div>
-                </div>
+                <a href="https://github.com/Biagemc/mini_capstone_project" target="_blank" class="badge badge-danger">
+                  GitHub
+                </a>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="card card-plain card-blog">
+        <!-- Rotating Cards Section begin -->
+        <hr />
+        <h3 class="title">Few more...</h3>
+        <div class="container">
           <div class="row">
-            <div class="col-md-4">
-              <div class="card-header card-header-image">
-                <img
-                  class="img img-raised"
-                  src="https://res.cloudinary.com/biagemc/image/upload/v1591060523/Screen_Shot_2020-06-01_at_9.14.49_PM_jwivyt.png"
-                />
-              </div>
-            </div>
-            <div class="col-md-8">
-              <h6 class="card-category text-info">Enterprise</h6>
-              <h3 class="card-title">
-                <a href="#pablo">Backend Product Shopping API</a>
-              </h3>
-              <p class="card-description">
-                E-commerce API for products, with a diverse set of tables joined. User and Admin authentication. Also,
-                shopping cart for selected products.
-              </p>
-              <a href="https://github.com/Biagemc/mini_capstone_project" target="_blank" class="badge badge-danger">
-                GitHub
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Rotating Cards Section begin -->
-      <hr />
-      <h3 class="title">Few more...</h3>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <div class="rotating-card-container" style="margin-bottom: 30px;">
-              <div class="card card-rotate card-background">
-                <div
-                  class="front front-background"
-                  style="
-                    background-image: url('./assets/img/examples/card-blog5.jpg');
-                    width: 350px;
-                    max-height: 300px;
-                  "
-                >
-                  <div class="card-body">
-                    <h6 class="card-category">Full Background Card</h6>
-                    <a href="#pablo">
-                      <h3 class="card-title">This Background Card Will Rotate on Hover</h3>
-                    </a>
-                    <p class="card-description">
-                      Don't be scared of the truth because we need to restart the human foundation in truth And I love
-                      you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                    </p>
-                  </div>
-                </div>
-                <div
-                  class="back back-background"
-                  style="background-image: url('./assets/img/examples/card-blog5.jpg'); width: 350px;"
-                >
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      Manage Post
-                    </h5>
-                    <p class="card-description">As an Admin, you have shortcuts to edit, view or delete the posts.</p>
-                    <div class="footer text-center">
-                      <a href="#pablo" class="btn btn-danger btn-just-icon btn-fill btn-round">
-                        <i class="fa fa-github"></i>
+            <div class="col-md-6 col-lg-4">
+              <div class="rotating-card-container" style="margin-bottom: 30px;">
+                <div class="card card-rotate card-background">
+                  <div
+                    class="front front-background"
+                    style="
+                      background-image: url('./assets/img/examples/card-blog5.jpg');
+                      width: 350px;
+                      max-height: 300px;
+                    "
+                  >
+                    <div class="card-body">
+                      <h6 class="card-category">Full Background Card</h6>
+                      <a href="#pablo">
+                        <h3 class="card-title">This Background Card Will Rotate on Hover</h3>
                       </a>
+                      <p class="card-description">
+                        Don't be scared of the truth because we need to restart the human foundation in truth And I love
+                        you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="back back-background"
+                    style="background-image: url('./assets/img/examples/card-blog5.jpg'); width: 350px;"
+                  >
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Manage Post
+                      </h5>
+                      <p class="card-description">As an Admin, you have shortcuts to edit, view or delete the posts.</p>
+                      <div class="footer text-center">
+                        <a href="#pablo" class="btn btn-danger btn-just-icon btn-fill btn-round">
+                          <i class="fa fa-github"></i>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -435,10 +440,9 @@
             </div>
           </div>
         </div>
+        <!-- Rotating cards section end -->
       </div>
-      <!-- Rotating cards section end -->
     </div>
-
     <footer class="footer footer-black footer-big">
       <div class="container">
         <div class="contact-me">
