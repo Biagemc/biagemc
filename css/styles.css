@@ -47,13 +47,6 @@ hr {
   margin: 100px auto;
 } */
 
-a {
-  color: #11999e;
-  font-family: "Roboto Mono", monospace;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
 a:hover {
   color: #eaf6f6;
 }
@@ -65,16 +58,16 @@ a:hover {
   width: 110px;
 }
 .profile-img {
-  max-height: 200px;
   border-radius: 50%;
 }
 
 #profile-section {
   padding-left: 8rem;
   padding-right: 8rem;
+  padding-bottom: 10rem;
 }
 
-#nav{
+#nav {
   border-bottom: black solid 4px;
 }
 
@@ -88,8 +81,9 @@ a:hover {
   background-color: #ffffff;
 }
 
-#projects-section {
-  padding-top: 10rem;
+#project-section {
+  border-top: 3px solid black;
+  padding: 5rem 0 16rem;
 }
 
 #brand-name {
@@ -101,6 +95,7 @@ a:hover {
 #footer-content {
   color: black;
   font-size: 1.4rem;
+  font-family: "Roboto Mono", monospace;
 }
 
 #navbarToggler {
@@ -109,11 +104,15 @@ a:hover {
 #hire-me {
   color: black;
   font-size: 1.6rem;
-  font-family: 'Roboto Mono', monospace; */
+  font-family: "Roboto Mono", monospace;
+}
+
+#rails-logo2 {
+  width: 60px;
+  height: 60px;
 }
 .top-container {
-  position: relative;
-  padding-top: 100px;
+  padding: 3rem 0 5rem;
 }
 
 .middle-container {
