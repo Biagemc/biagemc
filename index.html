@@ -34,71 +34,54 @@
 
   <body class="index-page sidebar-collapse">
     <div id="nav">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-transparent" id="sectionsNav">
-        <div class="container">
-        <a id="brand-name" class="navbar-brand" href="#">&lt;Moreno Biage /&gt;</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarToggler"
-            aria-controls="navbarToggler"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            id="button-colapse"
-          >
-          
-            <span  class="navbar-toggler-bar navbar-kebab"></span>
-            <span class="navbar-toggler-bar navbar-kebab"></span>
-            <span class="navbar-toggler-bar navbar-kebab"></span>
+    <nav class="navbar  sticky-top navbar-custom navbar-light navbar-expand-lg" id="sectionsNav">
+      <div class="container">
+        <div   class="navbar-translate">
+          <a id="brand-name" class="navbar-brand" href="#">&lt;Moreno Biage /&gt;</a>
+          <button  id="colapse-button" class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation" >
+            <span  class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav navbar-center  mr-auto ml-auto">
-              <li class="nav-item active">
-                <a id="profile-tag" class="nav-link" href="#profile-section" >
-                  My Profile
-                </a>
-              </li>
-              <li class="nav-item active">
-                <a id="project-tag" class="nav-link" href="#project-section" >
-                  Projects
-                </a>
-              </li>
-              <li class="nav-item active">
-              <a id="hire-me" class="nav-link" href="#contact">
-                Hire me!
+        </div>
+        <div   class="collapse navbar-collapse">
+          <ul  class="navbar-nav navbar-center mr-auto ml-auto">
+            <li class="nav-item active">
+              <a id="profile-tag" class="nav-link" href="#profile-section" >
+               My Profile
               </a>
             </li>
-              <li class="nav-item active">
-                <a id="linkedin-icon" class="nav-link" href="https://www.linkedin.com/in/morenobiage/" target="_blank">
-                  <img width="40" height="40" src="svgs/brands/linkedin.svg" alt="linkedin-icon" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a id="github-icon" class="nav-link" href="https://github.com/Biagemc" target="_blank">
-                  <img width="40" height="40" src="svgs/brands/github.svg" alt="github-icon" />
-                </a>
-              </li>
-              <li class="nav-item">
-                <a id="twitter-icon" class="nav-link" href="https://twitter.com/MCBiage" target="_blank">
-                  <img width="40" height="40" src="svgs/brands/twitter-square.svg" alt="twitter-icon" />
-                </a>
-              </li>
-            </ul>
-            <!-- <a id="linkedin-icon" class="nav-link" href="https://www.linkedin.com/in/morenobiage/" target="_blank">
-              <img width="40" height="40" src="svgs/brands/linkedin.svg" alt="linkedin-icon" />
-            </a>
-            <a id="github-icon" class="nav-link" href="https://github.com/Biagemc" target="_blank">
-              <img width="40" height="40" src="svgs/brands/github.svg" alt="github-icon" />
-            </a>
-            <a id="twitter-icon" class="nav-link" href="https://twitter.com/MCBiage" target="_blank">
-              <img width="40" height="40" src="svgs/brands/twitter-square.svg" alt="twitter-icon" />
-            </a> -->
-          </div>
+            <li class="nav-item active">
+              <a id="project-tag" class="nav-link" href="#project-section" >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a id="socials-tag" class="nav-link" href="#contact">
+                Socials
+              </a>
+            </li>
+                              
+          </ul>
+          <a id="hire-me" class="nav-link" href="#contact">
+            Hire me!
+          </a>
         </div>
-      </nav>
-    </div>
-    
+        <a id="linkedin-icon" class="nav-link" href="https://www.linkedin.com/in/morenobiage/" target="_blank">
+          <img width="30" height="30" src="svgs/brands/linkedin.svg" alt="linkedin-icon" />
+        </a>
+        <a id="github-icon" class="nav-link" href="https://github.com/Biagemc" target="_blank">
+          <img width="30" height="30" src="svgs/brands/github.svg" alt="github-icon" />
+        </a>
+        <a id="twitter-icon" class="nav-link" href="https://twitter.com/MCBiage" target="_blank">
+          <img width="30" height="30" src="svgs/brands/twitter-square.svg" alt="twitter-icon" />
+        </a>
+      </div>
+    </nav>
+  </div>
+  </div>
+   
     <!-- top container begin -->
     <div
       class="page-header"
@@ -148,7 +131,7 @@
                   </div>
                   <div class="name">
                     <h3 class="title">Moreno Biage</h3>
-                    <h5>Full Stack Developer | Father | Brazilian Jiu-Jitsu Athlete | Coffee Specialist</h5>
+                    <h5>Full Stack Developer  |  Father  |  Brazilian Jiu-Jitsu Athlete  |  Coffee Specialist</h5>
                     <a
                       href="https://www.linkedin.com/feed/"
                       target="_blank"
@@ -204,10 +187,10 @@
                   <div class="container">
                    
                       <div class="row">
-                        <div class="col-md-8 ml-auto mr-auto">
-                          <h3 class="text-warning">Tech Skills</h3>
+                        <div class="col-12 ml-auto mr-auto">
+                          <h3 class="text-danger">Tech <mark class="hl">Skills</mark> </h3>
                           <h4>
-                            I enjoy the challenges and tackling any new tools. Soon Python and Django will be added here. My tech stack
+                            I enjoy the challenges and tackling any new tools. Soon Python and Django will be added here. For now that's my tech stack...
                           </h4>
                         </div>
                       </div>
@@ -285,7 +268,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 >Projects</h2>
+            <h2><mark class="hl">Pro</mark>jects</h2>
 
             <div class="section-space"></div>
           </div>
@@ -394,8 +377,8 @@
 
         <!-- Rotating Cards Section begin -->
         <hr />
-        <h3 >Few more Projects worth it to check it out...</h3>
-        <div class="container">
+        <h3 class="projects-h3" >Few more Projects worth it to check it out...</h3>
+        <div id="extra-projects" class="container">
           <div class="row">
             <div class="col-md-6 col-lg-4">
               <div class="rotating-card-container" style="margin-bottom: 30px;">
@@ -409,7 +392,7 @@
                     "
                   >
                     <div class="card-body">
-                      <h4 class="title text-danger">Notes APP</h4>
+                      <h4 class="text-danger">Notes APP</h4>
                       <h6 class="card-category">built with</h6>
                       <div class="row">
                         <div class="col-12">
@@ -470,7 +453,7 @@
                     "
                   >
                     <div class="card-body">
-                      <h4 class="title text-warning">Backend Movies Api</h4>
+                      <h4 class="text-warning">Backend Movies Api</h4>
                       <h6 class="card-category">built with</h6>
                       <div class="row">
                         <div class="col-12">
@@ -520,6 +503,66 @@
                 </div>
               </div>
             </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="rotating-card-container" style="margin-bottom: 30px;">
+                <div class="card card-rotate card-background">
+                  <div
+                    class="front front-background"
+                    style="
+                      background-image: url('https://res.cloudinary.com/biagemc/image/upload/v1591541730/Screen_Shot_2020-06-07_at_10.54.46_AM_aw2au3.png');
+                      width: 350px;
+                      max-height: 300px;
+                    "
+                  >
+                    <div class="card-body">
+                      <h4 class="text-info">My Personal Portfolio</h4>
+                      <h6 class="card-category">built with</h6>
+                      <div class="row">
+                        <div class="col-12">
+                          <img
+                            class="rounded-circle img-thumbnail"
+                            src="svgs/icons8-html-5-50.png"
+                            alt="html-icon"
+                          />
+                          <img
+                            
+                            class="rounded-circle img-thumbnail"
+                            src="svgs/icons8-css3-50.png"
+                            alt="css-icon"
+                           
+                          />
+                        </div>
+                      </div>
+                      <p class="card-description">
+                        This SPA was built using HTML, CSS, Bootstrap and a few components that uses SCSS and SaaS adding extra styling to bootstrap!
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="back back-background"
+                    style="
+                      background-image: url('https://res.cloudinary.com/biagemc/image/upload/v1591541773/Screen_Shot_2020-06-07_at_10.56.02_AM_ziuqso.png');
+                      width: 350px;
+                    "
+                  >
+                    <div class="card-body">
+                      <p class="card-description">
+                        Check it out the github repository link
+                      </p>
+                      <div class="footer text-center">
+                        <a
+                          href="https://github.com/Biagemc/personal-portfolio"
+                          target="_blank"
+                          class="btn btn-danger btn-just-icon btn-fill btn-round"
+                        >
+                          <i class="fa fa-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!-- Rotating cards section end -->
@@ -530,11 +573,11 @@
     
       <div id="contact" class="container">
         <div class="contact-me">
-          <h2>Let's Get In Touch</h2>
+          <h2>Let's In Touch</h2>
 
-          <h5 id="contact-message">
+          <h4 id="contact-message">
             Have a coffee and chat! I look forward to an opportunity to discuss with you the value I can bring!
-          </h5>
+          </h4>
           <a href="mailto:biagemc@gmail.com" target="_blank" class="contact-button">CONTACT ME</a>
         </div>
         <div id="footer-content" class="copyright float-center">

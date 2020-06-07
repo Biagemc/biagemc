@@ -4,7 +4,7 @@ font-family: 'Manrope', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 
 body {
-  /* background-color: #ffffff; */
+  background-color: white;
   color: #323232;
   margin: 0;
   text-align: center;
@@ -13,6 +13,8 @@ body {
 
 footer {
   font-family: "Roboto Mono", monospace;
+  clip-path: polygon(0px 100px, 100% 0px, 100% 100%, 0% 100%);
+  overflow: hidden;
 }
 
 h1 {
@@ -61,16 +63,19 @@ a:hover {
 #express-logo {
   width: 110px;
 }
-.profile-img {
-  border-radius: 50%;
-}
 
 #profile-section {
   padding: 20rem 5rem 10rem;
 }
+#sectionsNav {
+  padding-top: 2rem;
+  box-shadow: none !important;
+}
 
 #nav {
   border-bottom: black solid 4px;
+  color: black;
+  padding-bottom: 0rem;
 }
 
 /* #top {
@@ -86,25 +91,38 @@ a:hover {
 #project-section {
   /* border-top: 3px solid black; */
   padding: 5rem 0 16rem;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 
+.hl {
+  background-color: rgb(233, 227, 48);
+  color: #323232;
+}
 #brand-name {
   color: black;
   font-size: 1.8rem;
   font-family: "Architects Daughter", cursive;
-  padding-left: 3rem;
+  padding-left: 1.5rem;
 }
 
 #button-colapse {
-  color: black;
+  color: black !important;
+}
+
+#contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  font-family: "Roboto Mono", monospace;
 }
 
 #profile-tag,
 #project-tag,
-#hire-me {
-  font-size: 1.6rem;
-  color: black;
+#hire-me,
+#socials-tag,
+#colapse-button,
+#navbarDropdownMenuLink {
+  font-size: 1.4rem;
+  color: black !important;
   font-family: "Architects Daughter", cursive;
 }
 
@@ -118,9 +136,20 @@ a:hover {
   text-align: end;
 }
 
+#copyright {
+  font-family: "Roboto Mono", monospace;
+  padding-top: 1rem;
+}
+
+#footer-content {
+  padding-top: 4rem;
+}
 #rails-logo2 {
   width: 60px;
   height: 60px;
+}
+#extra-projects {
+  padding-top: 1rem;
 }
 
 .top-container {
@@ -134,6 +163,10 @@ a:hover {
 .bottom-container {
   background-color: #323232;
   padding: 50px 0 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
 }
 
 .skill-row {
@@ -154,11 +187,11 @@ a:hover {
 .contact-me h2 {
   color: white;
   font-family: "Roboto Mono", monospace;
+  padding-top: 5rem;
 }
-#contact-message {
-  width: 40%;
-  margin: 40px auto 60px;
-  font-family: "Roboto Mono", monospace;
+
+.projects-h3 {
+  padding-top: 3rem;
 }
 
 .contact-button {
@@ -188,9 +221,6 @@ a:hover {
   color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
-}
-#copyright {
-  font-family: "Roboto Mono", monospace;
 }
 
 .top-cloud {
