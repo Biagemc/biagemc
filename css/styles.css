@@ -4,10 +4,14 @@ font-family: 'Manrope', sans-serif;
 font-family: 'Roboto Mono', monospace; */
 
 body {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   color: #323232;
   margin: 0;
   text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+footer {
   font-family: "Roboto Mono", monospace;
 }
 
@@ -62,40 +66,33 @@ a:hover {
 }
 
 #profile-section {
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-bottom: 10rem;
+  padding: 20rem 5rem 10rem;
 }
 
 #nav {
   border-bottom: black solid 4px;
 }
 
-#top {
+/* #top {
   background-color: #ffffff;
   padding: 16rem 0 16rem;
-}
+} */
 
-#skills-section,
+/* #skills-section,
 #features {
   background-color: #ffffff;
-}
+} */
 
 #project-section {
-  border-top: 3px solid black;
+  /* border-top: 3px solid black; */
   padding: 5rem 0 16rem;
+  background-color: #ffffff;
 }
 
 #brand-name {
   color: black;
   font-size: 1.8rem;
   font-family: "Architects Daughter", cursive;
-}
-#title,
-#footer-content {
-  color: black;
-  font-size: 1.4rem;
-  font-family: "Roboto Mono", monospace;
 }
 
 #navbarToggler {
@@ -104,7 +101,6 @@ a:hover {
 #hire-me {
   color: black;
   font-size: 1.6rem;
-  font-family: "Roboto Mono", monospace;
 }
 
 #rails-logo2 {
@@ -140,15 +136,46 @@ a:hover {
   margin: auto;
 }
 
-.contact-message {
+.contact-me h2 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+#contact-message {
   width: 40%;
   margin: 40px auto 60px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.contact-button {
+  font-family: "Roboto Mono", monospace;
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 24px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.contact-button:hover {
+  background-color: transparent;
+}
+.contact-button:active {
+  position: relative;
+  top: 1px;
 }
 
 .copyright {
   color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+#copyright {
+  font-family: "Roboto Mono", monospace;
 }
 
 .top-cloud {
@@ -161,4 +188,13 @@ a:hover {
   position: absolute;
   left: 250px;
   bottom: 300px;
+}
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 3s;
+}
+
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
 }

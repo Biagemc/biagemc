@@ -29,6 +29,7 @@
     <!-- CSS Files -->
     <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
     <link href="./css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
   </head>
 
   <body class="index-page sidebar-collapse">
@@ -68,32 +69,43 @@
               </li>
             </ul>
           </div>
-          <a id="hire-me" class="nav-link" href="#contact-me" target="_blank">
+          <a id="hire-me" class="nav-link" href="#contact">
             Hire me!
           </a>
         </div>
       </nav>
     </div>
     <!-- top container begin -->
-
-    <div id="top" class="container">
-      <div class="top-container">
-        <div class="row">
-          <div class="title-text float-left">
-            <h1>Hey there,</h1>
+    <div
+      class="page-header"
+      data-parallax="true"
+      style="background-image: url('images/nordwood-themes-nDd3dIkkOLo-unsplash.jpg');"
+    >
+      <div id="top" class="container">
+        <div class="top-container">
+          <div class="row">
+            <div class="col-5 title-text float-left">
+              <h1 class="animate__animated animate__fadeInDownBig animate__slower 3s">Hey there,</h1>
+            </div>
           </div>
-        </div>
-        <div class="title-text">
-          <h1>I'm Moreno,</h1>
-          <h2>
-            a
-            <span class="pro">FullStack</span>
-            Developer
-          </h2>
+          <div
+            class="title-text float-right animate__animated animate__fadeInRightBig animate__delay-2s animate__slower 3s"
+          >
+            <h1>I'm Moreno,</h1>
+            <h2>
+              a
+              <span class="pro">FullStack</span>
+              Developer
+            </h2>
+            <h3
+              class="title-text float-right animate__animated animate__fadeInRightBig animate__delay-4s animate__slower 4s"
+            >
+              ...and coffee lover!
+            </h3>
+          </div>
         </div>
       </div>
     </div>
-
     <!-- top container end -->
     <div id="profile-section" class="container">
       <div class="main main-raised">
@@ -112,7 +124,7 @@
                   </div>
                   <div class="name">
                     <h3 class="title">Moreno Biage</h3>
-                    <h6>Full Stack Developer</h6>
+                    <h5>Full Stack Developer | Father | Brazilian Jiu-Jitsu Athlete | Coffee Specialist</h5>
                     <a
                       href="https://www.linkedin.com/feed/"
                       target="_blank"
@@ -127,18 +139,41 @@
                     >
                       <i class="fa fa-twitter"></i>
                     </a>
-                    <a href="https://github.com/Biagemc" class="btn btn-just-icon btn-link btn-github">
+                    <a href="https://github.com/Biagemc" target="_blank" class="btn btn-just-icon btn-link btn-github">
                       <i class="fa fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/biagemc/" target="_blank" class="btn btn-just-icon btn-link btn-instagram">
+                      <i class="fa fa-instagram"></i>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="description text-center">
+              <h3>About me:</h3>
               <h4>
-                Developing ideas from paper and working towards a goal to be able to make the difference is my
-                aspiration of as a professional, developing and drinking coffee is a hobby, passion that I enjoy on my
-                day to day.
+                "From developing buildings to developing apps, I find myself on an enjoyable career path, which I did
+                not expect early in my career. Developing ideas from paper into buildings and working to deliver
+                exciting new experiences to people motivates me to get things done. Programming ignites my passion for a
+                whole new level of challenges and puzzles, and I loved it.
+              </h4>
+              <h4>
+                I've always enjoyed the process of building. I excel in how it should be done, optimizing, and working
+                towards a fluid product. From the first coding lesson, I found that spark, where all those connected,
+                and where I can apply and use my best skills. I joined a coding Bootcamp to accelerate my learning and
+                be more effective in teaching myself new languages, frameworks, and technologies.
+              </h4>
+              <h4>
+                I have nine years of experience as a Civil CAD Designer and Administrator at the construction industry.
+                With good experience working with a multidisciplinary team developing projects and converting client's
+                needs into technical specifications. I learned a lot of skills, but that does not stop me from knowing
+                how important constant learning is needed to be an excellent professional.
+              </h4>
+              <h4>
+                When I'm not coding, I enjoy a good time with my family, especially with my daughter. She is an amazing
+                little girl that you will notice she took over my Instagram (I guess I'm those fathers! LoL). Also, I
+                practice Brazilian Jiu-jitsu, something I've done since I was young. It is a stress-free environment
+                where we learn to be respectful, and learning is a never-ending process."
               </h4>
             </div>
             <div class="row">
@@ -379,7 +414,7 @@
                   >
                     <div class="card-body">
                       <p class="card-description">
-                        Check it out the github repository or on the CodeSandbox.io link
+                        Check it out the GitHub repository or on the CodeSandbox.io link
                       </p>
                       <div class="footer text-center">
                         <a
@@ -471,14 +506,15 @@
     </div>
 
     <footer class="footer footer-black footer-big">
-      <div class="container">
+    
+      <div id="contact" class="container">
         <div class="contact-me">
-          <h2>Get In Touch</h2>
+          <h2>Let's Get In Touch</h2>
 
-          <h5 class="contact-message">
-            Thanks! I look forward to an opportunity to discuss with you the value I can bring!
+          <h5 id="contact-message">
+            Have a coffee and chat! I look forward to an opportunity to discuss with you the value I can bring!
           </h5>
-          <a class="btn" href="biagemc@gmail.com">CONTACT ME</a>
+          <a href="mailto:biagemc@gmail.com" target="_blank" class="contact-button">CONTACT ME</a>
         </div>
         <div id="footer-content" class="copyright float-center">
           <div class="social-line social-line-big-icons social-line-black">
@@ -522,9 +558,11 @@
           </div>
 
           <hr />
-          <h4 class="h4">&copy;2020 by Moreno Biage</h4>
+          <h4 id="copyright">&copy;2020 by Moreno Biage</h4>
         </div>
       </div>
+   
+      </footer>
     </footer>
     <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
