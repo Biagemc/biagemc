@@ -53,7 +53,8 @@ a:hover {
 }
 
 #profile-section {
-  padding: 10rem 2rem 10rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 #sectionsNav {
   padding-top: 2rem;
