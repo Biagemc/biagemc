@@ -93,14 +93,29 @@ a:hover {
   color: black;
   font-size: 1.8rem;
   font-family: "Architects Daughter", cursive;
+  padding-left: 3rem;
 }
 
-#navbarToggler {
+#button-colapse {
   color: black;
 }
+
+#profile-tag,
+#project-tag,
 #hire-me {
-  color: black;
   font-size: 1.6rem;
+  color: black;
+  font-family: "Architects Daughter", cursive;
+}
+
+#skills-row,
+#skills-section {
+  padding: 2rem 1rem 2rem;
+}
+
+#skills-bottom {
+  padding: 1rem 0rem 2rem;
+  text-align: end;
 }
 
 #rails-logo2 {

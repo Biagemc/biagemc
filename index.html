@@ -34,9 +34,9 @@
 
   <body class="index-page sidebar-collapse">
     <div id="nav">
-      <nav class="navbar stick-top navbar-expand-lg navbar-transparent">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-transparent" id="sectionsNav">
         <div class="container">
-          <a id="brand-name" class="navbar-brand" href="#"><'Moreno'/></a>
+        <a id="brand-name" class="navbar-brand" href="#">&lt;Moreno Biage /&gt;</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -45,13 +45,30 @@
             aria-controls="navbarToggler"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            id="button-colapse"
           >
-            <span class="navbar-toggler-bar navbar-kebab"></span>
+          
+            <span  class="navbar-toggler-bar navbar-kebab"></span>
             <span class="navbar-toggler-bar navbar-kebab"></span>
             <span class="navbar-toggler-bar navbar-kebab"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggler">
-            <ul class="navbar-nav navbar-center ml-auto mr-auto">
+            <ul class="navbar-nav navbar-center  mr-auto ml-auto">
+              <li class="nav-item active">
+                <a id="profile-tag" class="nav-link" href="#profile-section" >
+                  My Profile
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a id="project-tag" class="nav-link" href="#project-section" >
+                  Projects
+                </a>
+              </li>
+              <li class="nav-item active">
+              <a id="hire-me" class="nav-link" href="#contact">
+                Hire me!
+              </a>
+            </li>
               <li class="nav-item active">
                 <a id="linkedin-icon" class="nav-link" href="https://www.linkedin.com/in/morenobiage/" target="_blank">
                   <img width="40" height="40" src="svgs/brands/linkedin.svg" alt="linkedin-icon" />
@@ -68,13 +85,20 @@
                 </a>
               </li>
             </ul>
+            <!-- <a id="linkedin-icon" class="nav-link" href="https://www.linkedin.com/in/morenobiage/" target="_blank">
+              <img width="40" height="40" src="svgs/brands/linkedin.svg" alt="linkedin-icon" />
+            </a>
+            <a id="github-icon" class="nav-link" href="https://github.com/Biagemc" target="_blank">
+              <img width="40" height="40" src="svgs/brands/github.svg" alt="github-icon" />
+            </a>
+            <a id="twitter-icon" class="nav-link" href="https://twitter.com/MCBiage" target="_blank">
+              <img width="40" height="40" src="svgs/brands/twitter-square.svg" alt="twitter-icon" />
+            </a> -->
           </div>
-          <a id="hire-me" class="nav-link" href="#contact">
-            Hire me!
-          </a>
         </div>
       </nav>
     </div>
+    
     <!-- top container begin -->
     <div
       class="page-header"
@@ -85,7 +109,7 @@
         <div class="top-container">
           <div class="row">
             <div class="col-5 title-text float-left">
-              <h1 class="animate__animated animate__fadeInDownBig animate__slower 3s">Hey there,</h1>
+              <h2 class="animate__animated animate__fadeInDownBig animate__slower 3s">Hey there,</h2>
             </div>
           </div>
           <div
@@ -150,11 +174,9 @@
               </div>
             </div>
             <div class="description text-center">
-              <h3>About me:</h3>
+              <h3 class="text-info">About Me</h3>
               <h4>
-                "From developing buildings to developing apps, I find myself on an enjoyable career path, which I did
-                not expect early in my career. Developing ideas from paper into buildings and working to deliver
-                exciting new experiences to people motivates me to get things done. Programming ignites my passion for a
+                "From developing buildings to developing apps, I find myself on an enjoyable career path. Developing ideas from paper into buildings and working to deliver exciting new experiences to people motivates me to get things done. Programming ignites my passion for a
                 whole new level of challenges and puzzles, and I loved it.
               </h4>
               <h4>
@@ -180,17 +202,16 @@
               <div class="col-md-10 ml-auto mr-auto">
                 <div class="cd-section" id="skills-section">
                   <div class="container">
-                    <!--     *********     FEATURES 1      *********      -->
-                    <div class="features-1">
+                   
                       <div class="row">
                         <div class="col-md-8 ml-auto mr-auto">
-                          <h3 class="title">Tech Skills</h3>
-                          <h3 class="h3">
-                            I enjoy challenges and tackling any new tools if necessary. My current stack:
-                          </h3>
+                          <h3 class="text-warning">Tech Skills</h3>
+                          <h4>
+                            I enjoy the challenges and tackling any new tools. Soon Python and Django will be added here. My tech stack
+                          </h4>
                         </div>
                       </div>
-                      <div class="container">
+                      <div id="skills-row" class="container">
                         <div class="row">
                           <div class="col-lg-12 justify-content-around">
                             <img
@@ -242,13 +263,13 @@
                             />
                             <img class="rounded-circle img-thumbnail" src="svgs/icons8-git-100-2.png" alt="git-icon" />
                             <img class="rounded-circle img-thumbnail" src="svgs/icons8-npm-100.png" alt="npm-icon" />
-                            <div id="skills-bottom" class="h3">
-                              <h4>... and learning more everyday!</h4>
-                            </div>
+                           
                           </div>
                         </div>
                       </div>
-                    </div>
+                      <div id="skills-bottom" >
+                        <h4><strong>... and learning more everyday!</strong></h4>
+                      </div>
                   </div>
                 </div>
               </div>
@@ -264,7 +285,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Projects</h2>
+            <h2 >Projects</h2>
 
             <div class="section-space"></div>
           </div>
@@ -280,22 +301,22 @@
               </div>
             </div>
             <div class="col-md-8">
-              <h4 class="card-title">
+              <h4 class="text-success">
                 <a>Lets Roll App</a>
               </h4>
               <p class="card-description">
                 Library of Brazilian Jiu-Jitsu positions. Where you can create and post lessons, add comments, have an
                 user profile,
-                <span class="title">add favourites positions</span>
+                <span >add favourites positions</span>
                 , and may
-                <span class="title">upload avatar pictures.</span>
+                <span >upload avatar pictures.</span>
                 Also, uses
-                <span class="title">JWT for Authentication</span>
+                <span >JWT for Authentication</span>
                 and backend especific search.
               </p>
               <div class="row">
                 <div class="col-12">
-                  <h5 class="info-title text-danger">Tech Stack</h5>
+                  <h5 class=" text-danger">Tech Stack</h5>
                   <div class="description">
                     <img
                       id="rails-logo2"
@@ -336,19 +357,19 @@
               </div>
             </div>
             <div class="col-md-8">
-              <h4 class="card-title">
-                <a href="#pablo">Backend Product Shopping API</a>
+              <h4 class="text-success">
+                <a href="#">Backend Product Shopping API</a>
               </h4>
               <p class="card-description">
                 E-commerce API for products, with a diverse set of tables joined. Also, some features are
-                <span class="title">shopping Cart</span>
+                <span >shopping Cart</span>
                 ,
-                <span class="title">JWT Authentication</span>
+                <span >JWT Authentication</span>
                 ,
               </p>
               <div class="row">
                 <div class="col-12">
-                  <h4 class="info-title text-danger">Tech Stack</h4>
+                  <h4 class="text-danger">Tech Stack</h4>
                   <img
                     class="rounded-circle img-thumbnail"
                     src="svgs/icons8-ruby-programming-language-50.png"
@@ -373,7 +394,7 @@
 
         <!-- Rotating Cards Section begin -->
         <hr />
-        <h3 class="title">Few more...</h3>
+        <h3 >Few more Projects worth it to check it out...</h3>
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-lg-4">
@@ -564,19 +585,20 @@
    
       </footer>
     </footer>
-    <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-    <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-    <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-    <script src="./assets/js/plugins/moment.min.js"></script>
-    <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-    <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-    <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
-    <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
-    <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
-    <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
-    <script src="./assets/demo/modernizr.js" type="text/javascript"></script>
-    <script src="./assets/demo/vertical-nav.js" type="text/javascript"></script>
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
+    <script src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script src="../assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+    <script src="../assets/js/plugins/moment.min.js"></script>
+    <script src="../assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+    <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+    <script src="../assets/js/plugins/bootstrap-tagsinput.js"></script>
+    <script src="../assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+    <script src="../assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
+    <script src="../assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
+    <script src="../assets/demo/modernizr.js" type="text/javascript"></script>
+    <script src="../assets/demo/vertical-nav.js" type="text/javascript"></script>
+    <script async defer src="..https://buttons.github.io/buttons.js"></script>
+    <script src="../assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
   </body>
 </html>
+
